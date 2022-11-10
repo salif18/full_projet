@@ -1,0 +1,35 @@
+
+.formulaire {
+    margin-left:400px;
+    margin-top:150px;
+    text-transform: capitalize;
+    font-size: 18px;
+    outline: none;
+}
+.form-control{
+    width: 500px;
+    border: 1px solid #000;
+}
+
+.formulaire h2{
+    border-bottom:5px solid #000;
+    border-bottom-right-radius: 20px;
+    width: 220px;
+    padding-bottom: 10px;
+}
+
+.formulaire .btn{
+    margin-left: 200px;
+}
+
+.loading-signup{
+    display: flex;
+    justify-content: center;
+    margin:310px 200px;
+}
+
+.loading-admin{
+    display: flex;
+    justify-content: center;
+    margin:300px 400px 500px 600px;
+}

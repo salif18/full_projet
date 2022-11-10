@@ -1,0 +1,19 @@
+.category{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+.btn-dark{
+     margin:5px;
+     width: 90px;
+     text-transform: capitalize;
+     font-family: 'Cairo',sans-serif;
+     background: #000;
+     overflow: hidden;
+     transition: all 0.5s    ;
+}
+
+.btn-dark:hover{
+    background: rgb(34, 34, 34);
+     transform: scale(1.08);
+}

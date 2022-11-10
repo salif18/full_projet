@@ -1,0 +1,68 @@
+.btn-danger{
+    margin-left: 70px;
+    position: absolute;
+    top:10px;
+    right:10px;
+    opacity: 0%;
+    width: auto;
+    height: auto;
+}
+
+.btn-danger .fa-trash{
+    font-size: 14px;
+}
+
+.btn-danger:hover{
+    opacity: 100%;
+}
+
+.btn-increment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.btn-increment .btn{
+    margin: 10px;
+}
+
+.total{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #000;
+    border-radius:10px ;
+    margin: 20px;
+    padding: 20px;
+}
+.total .btn{
+    background: rgb(4, 206, 81);
+    border-radius: 5px;
+    color:#f5f5f5;
+    text-transform: capitalize;
+    font-family: 'Cairo',sans-serif;
+    font-weight: 700;
+}
+.message-vide{
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    text-transform: capitalize;
+    font-family: 'Roboto',sans-serif;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.message-vide img{
+    width: 200px;
+    height: 200px;
+}
+.SPAN{
+    margin-right:10px ;
+    font-weight: 700;
+}

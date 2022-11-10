@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+
+}
+.container .thumbs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.thumb{
+    cursor: pointer;
+   
+}
+
+.container img{
+   
+}

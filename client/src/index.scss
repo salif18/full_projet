@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto:ital,wght@0,100;0,300;0,700;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+.message-home{
+  text-align: center;
+  font-family: sans-serif;
+  margin-top: 50px ;
+  background-image: url('./assets/fastfood.jpg');
+  background-repeat: no-repeat ;
+  background-size: cover;
+  margin-top: 0;
+  padding: 100px;
+  height: 100vh;
+  color: #cdcdcd;
+
+}
+.message-home a{
+  text-decoration: none;
+  color: #cdcdcd;
+  font-size: 20px;
+}
+.message-home .btn-dark{
+  width: 150px;
+  transition: all 0.5s ease;
+  overflow: hidden;
+}
+.message-home .btn-dark:hover{
+  transform: scale(1.2);
+  color: #ffff;
+  font-weight: 700;
+  background: rgb(17, 16, 16);
+}
+
+.message-home p{
+  font-size: 18px;
+  font-family: sans-serif;
+  margin: 20px;
+}
+
+.loading-home{
+  display: flex;
+  justify-content: center;
+  margin:300px 400px 600px 600px;
+}
+@import './styles/menu.scss';
+@import './styles/header.scss';
+@import './styles/navbar.scss';
+@import './styles/category.scss';
+@import './styles/admin.scss';
+@import './styles/panier.scss';
+@import './styles/LoginSignup.scss';
+@import './styles/slideshow.scss';
+@import './styles/footer.scss';
+@import './styles/logout.scss';

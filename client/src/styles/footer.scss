@@ -1,0 +1,56 @@
+.footer{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    color:#cdcdcd;
+    background: #000;
+}
+
+.footer p{
+  color: #8d8c8c;
+}
+
+.service , .auteur,.sociaux{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    width: 250px;
+}
+
+.auteur h1{
+    border-bottom: 1px solid #525151;
+    margin-top: 25px;
+    padding:10px;
+    width: 500px;
+    font-family: "Cairo",sans-serif;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 700;
+}
+.sociaux h1{
+    border-bottom: 1px solid #525151;
+    padding: 10px;
+    width: 500px;
+    font-family: "Cairo",sans-serif;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 700;
+}
+.service h1{
+    margin-bottom: 8px;
+    border-bottom: 1px solid #525151;
+    padding: 10px;
+    width: 160px;
+    font-family: "Cairo",sans-serif;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 700;
+}
+.service{
+    margin-bottom: 100px;
+}
